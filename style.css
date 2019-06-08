@@ -1,11 +1,11 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #5abd52;
 }
 
-menu {
-    width: 100%;
+#menu {
+    width: 50%;
     height: 100%;
 }
 
@@ -19,16 +19,16 @@ menu {
 
 .item {
     margin: 0.5%;
-    min-width: 50%;
+    width: 80%;
     box-sizing: border-box;
     padding: 0.5%;
     height: 6%;
-    background-color: aqua;
+    background-color: rgb(165, 179, 179);
 }
 
 .exemplo {
     height: 70%;
-    background-color: blueviolet;
+    background-color: rgb(159, 223, 99);
     font-size: 30px;
     text-align: center;
 }
@@ -40,4 +40,12 @@ menu {
 #troca {
     width: 60%;
     height: 100%;
+}
+
+.exemplo {
+    border-radius: 8%;
+    box-shadow: 2px 4px #464545;
+}
+button{
+   border-radius: 10%; 
 }
